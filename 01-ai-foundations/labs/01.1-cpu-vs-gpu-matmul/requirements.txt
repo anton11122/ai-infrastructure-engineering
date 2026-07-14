@@ -1,0 +1,6 @@
+# Lab 01.1 dependencies
+# For CPU-only: this works as-is.
+# For NVIDIA GPU: install a CUDA-matching torch build instead, e.g.
+#   uv pip install torch --index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1
+numpy==1.26.4
